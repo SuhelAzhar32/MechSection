@@ -1,7 +1,13 @@
 import React from "react";
 import bgimage from "../assets/bg-main-image.jpg";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate()
+
+  const handleLearnMore = ()=>{
+    navigate("/about")
+  }
   return (
     <div className="relative w-screen h-screen overflow-hidden">
       <div className="absolute inset-0">
@@ -19,9 +25,9 @@ const HeroSection = () => {
           Welcome to MechSection Co.
         </h1>
         <p className="mt-4 text-lg text-white sm:text-base md:text-lg lg:text-xl px-10 sm:px-4">
-          We Build the Future with Integrity and Quality
+          Providing customer satisfaction through professional excellence.
         </p>
-        <button className="mt-6 mx-10 px-6 py-2 text-white rounded-md hover:bg-amber-500 border sm:px-4 md:px-5 lg:px-6 sm:mx-4">
+        <button onClick={handleLearnMore} className="mt-6 mx-10 px-6 py-2 text-white rounded-md hover:bg-amber-500 border sm:px-4 md:px-5 lg:px-6 sm:mx-4">
           Learn More
         </button>
       </section>

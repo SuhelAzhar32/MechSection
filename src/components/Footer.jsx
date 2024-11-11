@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Company Info Section */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">MechSection Co.</h3>
+          <h3 className="text-2xl font-semibold mb-4">MechSection Engineers Pvt Ltd.</h3>
           <p className="text-gray-300 mb-4">
             We provide high-quality construction services with a focus on
             integrity, reliability, and excellence.
@@ -76,14 +76,18 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
           <ul className="space-y-2">
             <li>
-              <span className="font-bold">Phone:</span> (123) 456-7890
+              <span className="font-bold">Phone:</span> +91- 9021772189
+            </li>
+            <li>
+              <span className="font-bold">Phone:</span> +91- 6355212776
             </li>
             <li>
               <span className="font-bold">Email:</span> info@constructionco.com
             </li>
             <li>
-              <span className="font-bold">Address:</span> 1234 Building St,
-              City, Country
+              <span className="font-bold">Address:</span> House no H999, Diwan
+              Sahab Takia, Mominpura, NAGPUR, MAHARSHTRA- 440018 Contacts: +91-
+              9021772189, Mob.No: +91- 6355212776
             </li>
           </ul>
         </div>
@@ -112,7 +116,8 @@ const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="text-center mt-8">
         <p className="text-sm text-gray-400">
-          © 2023 MechSection Co. All Rights Reserved.
+          An ISO 9001 : 2015 Company, MechSection Engineers Pvt Ltd. All Rights
+          Reserved.
         </p>
       </div>
     </footer>
