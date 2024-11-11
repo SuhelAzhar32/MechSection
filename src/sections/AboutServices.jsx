@@ -31,8 +31,8 @@ const AboutSection = () => {
             Strong Foundation in Industry Knowledge
           </h3>
           <p className="text-gray-600 text-sm lg:text-base">
-            With over 20 years in the construction industry, we bring a wealth
-            of knowledge and expertise to every project, helping us tackle
+            With over 5 years in the construction industry, we bring a wealth of
+            knowledge and expertise to every project, helping us tackle
             challenges and innovate to meet client needs.
           </p>
         </div>

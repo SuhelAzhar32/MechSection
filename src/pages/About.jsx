@@ -1,6 +1,7 @@
 import React from "react";
 import bgaboutus from "../assets/bgaboutus.jpg";
 import AboutUs from "../components/AboutUs";
+import OurTeamSection from "../sections/OurTeamSection";
 
 const About = () => {
   return (
@@ -24,6 +25,9 @@ const About = () => {
       </section>
       <div className="container mx-2 py-4">
         <AboutUs />
+      </div>
+      <div className="container mx-2 py-4">
+        <OurTeamSection />
       </div>
     </div>
   );
