@@ -10,6 +10,8 @@ const NavMenu = () => {
       setSelected("home");
     } else if (location.pathname === "/about") {
       setSelected("about");
+    } else if (location.pathname === "/projects") {
+      setSelected("projects");
     } else if (location.pathname === "/services") {
       setSelected("services");
     } else if (location.pathname === "/contact") {
@@ -18,7 +20,7 @@ const NavMenu = () => {
   }, [location]);
 
   return (
-    <div className="flex flex-row px-3 sm:flex-row sm:space-x-4 mt-4 sm:mt:0 w-full sm:w-auto">
+    <div className="flex flex-row px-3 sm:flex-row sm:space-x-4 mt-4 sm:mt:0 justify-between w-full sm:w-auto">
       <Link
         to=""
         className={`px-1 ${
@@ -34,6 +36,14 @@ const NavMenu = () => {
         } hover:text-yellow-500 transition-colors duration-300 ease-in-out`}
       >
         About
+      </Link>
+      <Link
+        to="/projects"
+        className={`px-1 ${
+          selected === "projects" ? "text-yellow-500" : "text-white"
+        } hover:text-yellow-500 transition-colors duration-300 ease-in-out`}
+      >
+        Projects
       </Link>
       <Link
         to="/services"

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="absolute z-10 w-screen bg-gradient-to-b from-black">
       <div className="max-w-screen-xl flex flex-col sm:flex-row items-center justify-between mx-auto p-4">
         <Link to="/" className="text-white font-bold text-2xl sm:text-2xl ">
-          MechSection Co.
+          MechSection Engineers Pvt Ltd
         </Link>
         <NavMenu />
       </div>

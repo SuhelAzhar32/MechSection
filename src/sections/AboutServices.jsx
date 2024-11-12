@@ -3,7 +3,7 @@ import { FaBuilding, FaUniversity, FaChartLine } from "react-icons/fa";
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col space-y-8 px-4 lg:px-16 py-20 max-w-screen-lg mx-auto">
+    <div className="flex flex-col space-y-8 px-4 lg:px-16 py-10 max-w-screen-lg mx-auto">
       {/* Building Staff Section */}
       <div className="flex items-start space-x-4 lg:space-x-6">
         <div className="bg-amber-500 rounded-full p-2 lg:p-4 flex-shrink-0">

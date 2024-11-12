@@ -2,6 +2,7 @@ import React from "react";
 import bgaboutus from "../assets/bgaboutus.jpg";
 import AboutUs from "../components/AboutUs";
 import OurTeamSection from "../sections/OurTeamSection";
+import Objectives from "../components/Objectives";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
       </div>
       <section
         id="about"
-        className="relative bg-slate-700 bg-opacity-80 h-[40vh] lg:h-[70vh] md:h-[50vh] sm:h-[40vh]"
+        className="relative bg-slate-600 bg-opacity-80 h-[40vh] lg:h-[70vh] md:h-[50vh] sm:h-[40vh]"
       >
         <div className="container mx-auto text-center py-[130px] sm:py-[130px] md:py-[150px] lg:py-[170px]">
           <h2 className="text-7xl font-bold text-white">About Us</h2>
@@ -26,6 +27,9 @@ const About = () => {
       <div className="container mx-2 py-4">
         <AboutUs />
       </div>
+      {/* <div className="container mx-2 py-4">
+        <Objectives />
+      </div> */}
       <div className="container mx-2 py-4">
         <OurTeamSection />
       </div>
