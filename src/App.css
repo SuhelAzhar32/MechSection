@@ -1,0 +1,41 @@
+/* Customize the navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #f59e0b;
+    /* Example: Amber color */
+    font-size: 2rem;;
+    /* Adjust size if needed */
+    transition: color 0.3s ease;
+}
+
+/* Add hover effect for navigation buttons */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #d97706;
+    /* Darker amber on hover */
+}
+
+/* Customize the pagination bullets */
+.swiper-pagination-bullet {
+    background-color: black;
+    /* Gray color for default bullets */
+    width: 10px;
+    /* Adjust size if needed */
+    height: 10px;
+    /* Adjust size if needed */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Customize the active bullet */
+.swiper-pagination-bullet-active {
+    background-color: #f59e0b;
+    /* Example: Amber color for active bullet */
+    transform: scale(1.2);
+    /* Enlarge the active bullet */
+}
+
+/* Add hover effect for bullets */
+.swiper-pagination-bullet:hover {
+    background-color: #d97706;
+    /* Darker amber on hover */
+}

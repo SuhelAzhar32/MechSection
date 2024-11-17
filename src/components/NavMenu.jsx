@@ -59,7 +59,7 @@ const NavMenu = () => {
           selected === "contact" ? "text-yellow-500" : "text-white"
         } hover:text-yellow-500 transition-colors duration-300 ease-in-out`}
       >
-        Contact Us
+        ContactUs
       </Link>
     </div>
   );
