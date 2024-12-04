@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Company Info Section */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">MechSection Engineers Pvt Ltd.</h3>
+          <h3 className="text-2xl font-semibold mb-4">Mechsection Engineers Pvt Ltd.</h3>
           <p className="text-gray-300 mb-4">
             We provide high-quality construction services with a focus on
             integrity, reliability, and excellence.
@@ -116,7 +116,7 @@ const Footer = () => {
       {/* Footer Bottom Section */}
       <div className="text-center mt-8">
         <p className="text-sm text-gray-400">
-          An ISO 9001 : 2015 Company, MechSection Engineers Pvt Ltd. All Rights
+          An ISO 9001 : 2015 Company, Mechsection Engineers Pvt Ltd. All Rights
           Reserved.
         </p>
       </div>

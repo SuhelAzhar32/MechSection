@@ -42,7 +42,7 @@ const Navbar = () => {
       } fixed top-0 left-0 z-10 w-screen bg-gradient-to-b from-black transition-transform duration-300`} */}
       <div className="max-w-screen-xl flex flex-col sm:flex-row items-center justify-between mx-auto p-4">
         <Link to="/" className="text-white font-bold text-2xl sm:text-2xl ">
-          MechSection Engineers Pvt Ltd
+          Mechsection Engineers Pvt Ltd
         </Link>
         <NavMenu />
       </div>

@@ -22,8 +22,11 @@ const BestPractice = () => {
           We Follow Best Practices
         </h3>
         <p className="mt-4 text-md text-black px-10 sm:text-base md:text-lg lg:text-xl sm:pt-4 sm:px-2">
-          We are dedicated to building eco-friendly, energy-efficient spaces
-          that prioritize safety, health, and environmental responsibility.
+          We are committed to delivering construction projects with the highest
+          standards of quality and responsibility. By embracing eco-friendly
+          methods, energy efficiency, and advanced safety protocols, we ensure
+          every space is sustainable, safe, and built to last. Our practices
+          prioritize both your needs and the environment.
         </p>
 
         {/* List of Best Practices */}

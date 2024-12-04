@@ -22,7 +22,7 @@ const HeroSection = () => {
           Build Your Dream
         </h3>
         <h1 className="text-2xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl px-10 sm:px-4">
-          Welcome to MechSection Co.
+          Welcome to Mechsection Co.
         </h1>
         <p className="mt-4 text-lg text-white sm:text-base md:text-lg lg:text-xl px-10 sm:px-4">
           Providing customer satisfaction through professional excellence.

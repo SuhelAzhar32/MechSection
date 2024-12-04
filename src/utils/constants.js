@@ -4,7 +4,6 @@ import architecturalImage from "../assets/architecturalImage.jpg";
 import firealarm from "../assets/firealarm.jpg";
 import plumbigServices from "../assets/plumbigServices.jpg";
 import plumbing from "../assets/plumbing.jpg";
-import renovationImage from "../assets/renovationImage.jpg";
 import bgservice from "../assets/bgservice.jpg";
 import fireutility from "../assets/fireutility.jpg";
 import hvacsystem from "../assets/hvacsystem.jpg";
@@ -46,11 +45,6 @@ export const services = [
     description: "Quality control and efficiency in project execution.",
     image: constructionImage,
   },
-  // {
-  //   title: "Renovation Services",
-  //   description: "Transforming spaces with modern design.",
-  //   image: renovationImage,
-  // },
   {
     title: "General Plumbing",
     description: "End-to-end plumbing solutions for all needs.",

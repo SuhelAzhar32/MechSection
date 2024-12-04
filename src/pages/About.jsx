@@ -2,8 +2,6 @@ import React from "react";
 import bgaboutus from "../assets/bgaboutus.jpg";
 import AboutUs from "../components/AboutUs";
 import OurTeamSection from "../sections/OurTeamSection";
-import Objectives from "../components/Objectives";
-
 const About = () => {
   return (
     <div className=" w-screen overflow-hidden">
@@ -27,9 +25,6 @@ const About = () => {
       <div className="container mx-2 py-4">
         <AboutUs />
       </div>
-      {/* <div className="container mx-2 py-4">
-        <Objectives />
-      </div> */}
       <div className="container mx-2 py-4">
         <OurTeamSection />
       </div>
